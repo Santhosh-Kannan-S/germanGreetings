@@ -1,0 +1,101 @@
+p, h1{
+    color: #b60dc1;
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#b60dc1;
+    
+}
+a:hover{
+    color:azure;
+}
+a:active{
+    color:green;
+}
+button{
+    border-radius: 10px;
+    background-color: black;
+    padding:0.5em 2em;
+    display: inline-block;
+    margin:1em;
+    margin-left: 3em;
+    color: #b60dc1;
+    cursor:pointer;
+}
+
+button:hover{
+    color:azure;
+}
+img{
+    display: block;
+}
+
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: normal;
+    /* Same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.list-box{
+    color: #b60dc1;
+    border: #b60dc1 2px solid;
+    margin:10px;
+    border-radius: 15px;
+    img{
+        margin:10px;
+    }
+    p{
+        margin:5px;
+    }
+    ul,ol{
+        margin:10px;
+    }
+    background-image: url('cssgradientnew.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    border-left: 5px #b60dc1 solid;
+    padding-left: 1.6em;
+}
+
+footer{
+    border-left:#c16d0d 0.5px solid ;
+    padding-left: 1em;
+}
+
+.my-form input[type="text"]{
+    padding:6px;
+    width:100%;
+}
+
+/*
+.list-box li:first-child{
+    background-color: aqua;
+}
+
+.list-box li:last-child{
+}
+
+.listbox li:nth-child(3){
+}
+*/
+.list-box li:nth-child(even){
+    background-color: rgba(197, 160, 177, 0.867);
+}
