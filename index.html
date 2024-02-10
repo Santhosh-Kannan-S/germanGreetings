@@ -6,15 +6,43 @@
     <!--here external js css can be added-->
   </head>
   <body>
+    <header id="main-header">
+      <div class="container-1">
+        <h1>Hallo lieblingsmensch!</h1>
+      </div>
+    </header>
+    <nav id="nav-bar">
+      <div class="container-1">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <section id="showcase">
+        <div class="contaniner-1">
+          <h3>
+            Deutsche Sprache hat komplexe Grammatik mit vier Fällen und drei
+            Geschlechtern
+          </h3>
+        </div>
+      </section>
+      
+    </div>
+
     <div class="container">
-      <h1>Hallo lieblingsmensch!</h1>
       <!-- Add lieblimensch-->
+      <aside id="sidebar">
+        <p>Übung macht den Meister</p>
+      </aside>
       <main>
         <p>Diese Website hilft Ihnen, andere zu begrüßen.</p>
         <button>
           <a href="#" target="_blank">Explore Here</a>
         </button>
-        <img src="download.jpg" alt="lieblingsmensch" />
         <div class="list-box">
           <p>Greetings while <strong>meeting</strong></p>
           <ul>
@@ -33,41 +61,39 @@
           <img src="bye.jpg" alt="bye greetings" />
         </div>
         <form action="#" class="my-form">
-          <p>Select What do you searchig for : </p>
+          <p>Select What do you searchig for :</p>
           <div>
-            
-          <label for="meeting">
-            <input type="radio" name="greetings" id="meeting" />Meeting
-          </label>
-        </div>
-        <div>
-          <label for="leaving">
-            <input type="radio" name="greetings" id="leaving" />Leaving
-          </label>
-        </div>
-        <p>Check the moods : </p>
-        <div>
-          <label for="happy">
-            <input type="checkbox" name="mood" id="happy" />Glücklich
-          </label>
-          <label for="sad">
-            <input type="checkbox" name="mood" id="sad" />Traurig
-          </label>
-          <label for="normal">
-            <input type="checkbox" name="mood" id="normal" />Gut
-          </label>
-        </div>
-        <div>
-          <Label for="url"><p>Enter URL: </p></Label>
-          <input type="text" placeholder="greeting URL" required /><br />
-          <button type="submit">
-            Einreichen</button>
+            <label for="meeting">
+              <input type="radio" name="greetings" id="meeting" />Meeting
+            </label>
+          </div>
+          <div>
+            <label for="leaving">
+              <input type="radio" name="greetings" id="leaving" />Leaving
+            </label>
+          </div>
+          <p>Check the moods :</p>
+          <div>
+            <label for="happy">
+              <input type="checkbox" name="mood" id="happy" />Glücklich
+            </label>
+            <label for="sad">
+              <input type="checkbox" name="mood" id="sad" />Traurig
+            </label>
+            <label for="normal">
+              <input type="checkbox" name="mood" id="normal" />Gut
+            </label>
+          </div>
+          <div>
+            <label for="url"><p>Enter URL:</p></label>
+            <input type="text" placeholder="greeting URL" required /><br />
+            <button type="submit">Einreichen</button>
           </div>
         </form>
       </main>
-      <footer>
-        <p>Kein Urheberrecht</p>
-      </footer>
     </div>
   </body>
+  <footer>
+    <p>Kein Urheberrecht @ 2024</p>
+  </footer>
 </html>
